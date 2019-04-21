@@ -32,14 +32,14 @@ class TabLink {
      this.element.classList.add('tabs-link-selected');
     
     // Call the select method on the item associated with this link
-
+    this.tabItem.select();
   }
 }
 
 class TabItem {
   constructor(element) {
     // Assign this.element to the passed in element
-    // this.element;
+    this.element = element;
   }
 
   select() {
