@@ -44,7 +44,7 @@ class TabItem {
 
   select() {
     // Select all ".tabs-item" elements from the DOM
-    // const items;
+     const items = document.querySelectorAll('.tabs-item');
 
     // Remove the class "tabs-item-selected" from each element
     
